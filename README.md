@@ -39,7 +39,7 @@ ________________________________________________________________________________
 ![ScreenShot](/screenshots/4.png)
 
 
-тестирование приложения на нагрузку 100 запросов в секундy с помощью Apache Benche
+тестирование приложения на нагрузку 100 запросов в секундy с помощью Apache Benche (видео с демонстрацией в папке скриншотов)
 ![Watch the video](https://disk.yandex.ru/client/disk/тест%20девопс?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fтест%20девопс%2Fsimplescreenrecorder-2022-07-29_00.30.16.mkv)
 
 
@@ -89,3 +89,7 @@ Percentage of the requests served within a certain time (ms)
  100%    615 (longest request)
 
 вывод: приложение хорошо справилось с нагрузкой, нет зафейленного запроса
+
+
+повторный тест и скриншот
+![ScreenShot](/screenshots/7.png)
