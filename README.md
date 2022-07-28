@@ -40,7 +40,8 @@ ________________________________________________________________________________
 
 
 тестирование приложения на нагрузку 100 запросов в секундy с помощью Apache Benche (видео с демонстрацией в папке скриншотов)
-![Watch the video](https://drive.google.com/file/d/1S-UkYBuaLrYp53wbYlAAUm_Pg9BJeOjK/view?usp=sharing)
+
+https://drive.google.com/file/d/1S-UkYBuaLrYp53wbYlAAUm_Pg9BJeOjK/view?usp=sharing
 
 
 ответ утилиты:
