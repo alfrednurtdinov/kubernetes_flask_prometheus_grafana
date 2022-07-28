@@ -1,0 +1,16 @@
+[Unit] 
+Description=Gunicorn instance to serve MyApp 
+#After=network.target 
+
+[Service] 
+User=root
+#Group=devops
+WorkingDirectory=/home/devops/devops-flask-test 
+#Environment="PATH=/var/www/myapp/venv/bin" 
+#ExecStart= sudo -u devops -c "kubectl port-forward pods/flask-pod -n flask 5000:5000 --address='0.0.0.0' &  kubectl port-forward service/prometheus-server-np 31406:80 --address='0.0.0.0' &" 
+#ExecStart= su -u devops kubectl port-forward pods/flask-pod -n flask 5000:5000 --address='0.0.0.0' & kubectl port-forward service/prometheus-server-np 31406:80 --address='0.0.0.0' &
+ExecStart=su - devops -c "kubectl port-forward pods/flask 5000:5000 --address='0.0.0.0' & kubectl port-forward pods/prometheus 9090:9090 --address='0.0.0.0' & kubectl port-forward pods/grafana 3000:3000 --address='0.0.0.0' &"
+Restart=always 
+
+[Install] 
+WantedBy=multi-user.target
