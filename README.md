@@ -40,7 +40,7 @@ ________________________________________________________________________________
 
 
 тестирование приложения на нагрузку 100 запросов в секундy с помощью Apache Benche (видео с демонстрацией в папке скриншотов)
-![Watch the video](https://disk.yandex.ru/client/disk/тест%20девопс?idApp=client&dialog=slider&idDialog=%2Fdisk%2Fтест%20девопс%2Fsimplescreenrecorder-2022-07-29_00.30.16.mkv)
+![Watch the video](https://drive.google.com/file/d/1S-UkYBuaLrYp53wbYlAAUm_Pg9BJeOjK/view?usp=sharing)
 
 
 ответ утилиты:
