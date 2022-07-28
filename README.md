@@ -40,4 +40,4 @@ ________________________________________________________________________________
 
 
 тестирование приложения на нагрузку 100 запросов в секундy с помощью Apache Benche
-![Watch the video](https://i.imgur.com/vKb2F1B.png)]
+![Watch the video](/screenshots/simplescreenrecorder-2022-07-29_00.30.16.mkv)
